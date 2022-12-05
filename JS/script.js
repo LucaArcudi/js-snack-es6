@@ -6,7 +6,7 @@ const student = {
     
     nome: "pippo",
     cognome: "himself",
-    eta: "3000-anni",
+    eta: "3000 anni",
 
 }
 
