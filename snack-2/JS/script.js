@@ -71,16 +71,17 @@ const carOthers = [];
 
 for( let i = 0; i < car.length; i++){
 
-    for (const key in car[i]) {
-
-        if ( alimentazione = "diesel"){
-            carDiesel.push(car[i]);
-            console.log ( car [i])            
+        if ( car[i].alimentazione === "diesel"){
+            carDiesel.push(car[i]);            
+        } else if (car[i].alimentazione === "benzina") {
+            carBenza.push(car[i]);
+        } else {
+            carOthers.push(car[i]);
         }
-    
-    }
-    
 
 }
 
+console.log ( carDiesel);
+console.log ( carBenza);
+console.log ( carOthers);
 
