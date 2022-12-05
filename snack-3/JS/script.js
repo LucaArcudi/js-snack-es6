@@ -79,3 +79,17 @@ for (let i = 0; i < zucchini.length; i++){
 }
 
 console.log (pesoTot);
+
+let averageWidth = 0;
+
+let lunghezzaTot = 0;
+
+for (let i = 0; i < zucchini.length; i++){
+    
+    lunghezzaTot += zucchini[i].peso;
+
+    averageWidth = lunghezzaTot / zucchini.length;
+
+}
+
+console.log(averageWidth);
